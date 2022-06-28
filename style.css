@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: whitesmoke;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    font-size: 5em;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.left-header {
+    text-align: right;
+    padding-right: 5em;
+}
+
+.left-header h3 {
+    color: #3a7ca5;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: white;
+    color: #152238;
+}
+
+.main-nav {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.bottom-header h2 {
+    color: #3a7ca5;
+    font-size: 3em;
+    font-weight: lighter;
+    margin-block: 0;
+    margin-top: 5rem;
+}
+
+.bottom-header p {
+    margin-block: 0;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.bottom-header {
+    margin: 0;
+    padding-inline: 5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.main-header {
+    background-color: #152238;
+    background-size: contain;
+    padding-bottom: 50px;
+}
+
+.register-now-button {
+    background-color: #152238;
+    padding: 1rem;
+    margin: 0;
+    font-size: 1.5em;
+    /* align-content: ; */
+    text-decoration: none;
+}
+.register-now-button:hover {
+    background-color: white;
+    color: #152238;
+}
